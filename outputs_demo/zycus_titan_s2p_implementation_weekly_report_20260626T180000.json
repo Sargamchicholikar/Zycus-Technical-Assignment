@@ -1,0 +1,2449 @@
+{
+  "project_name": "Zycus - Titan S2P Implementation",
+  "source_file": "S2P Project.xlsx",
+  "generated_at": "20260626T180000",
+  "report_run_date": "2026-06-26 00:00:00",
+  "report_week_start": "2026-06-22 00:00:00",
+  "report_week_end": "2026-06-28 00:00:00",
+  "rag_status": "Red",
+  "composite_score": 65.0,
+  "confidence": "Medium",
+  "escalation_applied": true,
+  "red_signals": [
+    "milestone_health",
+    "blockers"
+  ],
+  "signals": {
+    "schedule_slippage": {
+      "score": 100,
+      "raw_metric": "7/358 leaf tasks overdue (2.0%)"
+    },
+    "budget_burn": null,
+    "milestone_health": {
+      "score": 20,
+      "raw_metric": "9/14 milestones delayed or missed: Configuration and Build phase, UAT, Train The Trainer, Production & Cutover, Go-Live & Support intro, Hyper Care(Measure and Adoption) Solution, Project Initiation & Data Gathering, Configuration Documentation workshop, +1 more"
+    },
+    "blockers": {
+      "score": 20,
+      "raw_metric": "1 open blocker(s) flagged At-Risk, oldest 92 day(s): Supplier Notification template"
+    },
+    "stakeholder_sentiment": {
+      "score": 60,
+      "raw_metric": "9 comment(s) analyzed (confident: 1, mixed/cautionary: 8, escalation: 0)"
+    },
+    "critical_path_health": {
+      "score": 100,
+      "raw_metric": "0/15 critical-path (zero-float) tasks currently overdue"
+    }
+  },
+  "weights_used": {
+    "schedule_slippage": 0.3125,
+    "milestone_health": 0.225,
+    "blockers": 0.15,
+    "stakeholder_sentiment": 0.125,
+    "critical_path_health": 0.1875
+  },
+  "explanation": {
+    "status": "Red",
+    "top_driver": "milestone_health",
+    "confidence": "Medium",
+    "narrative": "Zycus - Titan S2P Implementation is Red this week. In plain terms: 9 of its 14 milestones are delayed or missed, including Configuration and Build phase and UAT; one blocker (\"Supplier Notification template\") has been open for 92 days; and stakeholder comments read mostly cautious or mixed. Data confidence for this read is medium.",
+    "format_fallback": true
+  },
+  "data_completeness_pct": 82.1,
+  "has_budget_data": false,
+  "has_sentiment_data": true,
+  "sentiment_trend": [
+    {
+      "as_of": "2026-06-05 00:00:00",
+      "score": 60,
+      "raw_metric": "1 comment(s) analyzed (confident: 0, mixed/cautionary: 1, escalation: 0)"
+    },
+    {
+      "as_of": "2026-06-12 00:00:00",
+      "score": 60,
+      "raw_metric": "1 comment(s) analyzed (confident: 0, mixed/cautionary: 1, escalation: 0)"
+    },
+    {
+      "as_of": "2026-06-19 00:00:00",
+      "score": 60,
+      "raw_metric": "1 comment(s) analyzed (confident: 0, mixed/cautionary: 1, escalation: 0)"
+    },
+    {
+      "as_of": "2026-06-26 00:00:00",
+      "score": 60,
+      "raw_metric": "5 comment(s) analyzed (confident: 0, mixed/cautionary: 5, escalation: 0)"
+    }
+  ],
+  "top_risk_rows": [
+    {
+      "task_name": "Supplier Notification template",
+      "status": "Red",
+      "reason": "Flagged At-Risk and not yet resolved",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Configuration Documentation workshop",
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 25% complete",
+      "owner": null
+    },
+    {
+      "task_name": "Master data to be provided by OTK team",
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 0% complete",
+      "owner": null
+    },
+    {
+      "task_name": "Workflow details & CULT table details to be provided by OTK",
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 0% complete",
+      "owner": null
+    },
+    {
+      "task_name": "OTK to share D&B creds",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Enable D & B App",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Configuration and Build phase",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Supplier data to be provided by Customer",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Data Load-Historical and bulk upload - iContract",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Production & Cutover",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    }
+  ],
+  "all_task_status": [
+    {
+      "task_name": "Supplier Notification template",
+      "status": "Red",
+      "reason": "Flagged At-Risk and not yet resolved",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Configuration Documentation workshop",
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 25% complete",
+      "owner": null
+    },
+    {
+      "task_name": "Master data to be provided by OTK team",
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 0% complete",
+      "owner": null
+    },
+    {
+      "task_name": "Workflow details & CULT table details to be provided by OTK",
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 0% complete",
+      "owner": null
+    },
+    {
+      "task_name": "OTK to share D&B creds",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Enable D & B App",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Configuration and Build phase",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Supplier data to be provided by Customer",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Data Load-Historical and bulk upload - iContract",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Production & Cutover",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Onboard and Introduce TAM team to Customer",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "Aftab Hashambhai"
+    },
+    {
+      "task_name": "Walkthrough of post hypercare support process by TAM team",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "Aftab Hashambhai"
+    },
+    {
+      "task_name": "Contract Sign Off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Contract signing between Titan and Zycus",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Sponsor, Zycus Sales"
+    },
+    {
+      "task_name": "Contract Sign Off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Review Contract Scope",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Resources Manager"
+    },
+    {
+      "task_name": "Assign Project Team and Internal communication",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Resources Manager"
+    },
+    {
+      "task_name": "Zycus Project Team mobilization and Team alignment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Resources Manager"
+    },
+    {
+      "task_name": "Setup Project [Server, Email alias, Internal Applications, Central Drive, Internal ticket for STAGING Set Up]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "Raise ticket for STAGING Set Up creation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sales / PreSales / Pilots handover",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Manager, Zycus Project Team, Zycus Sales"
+    },
+    {
+      "task_name": "Pre-kick off meeting with internal stakeholders",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Manager, Zycus Project Team, Zycus Sales"
+    },
+    {
+      "task_name": "Finalize kick off meeting schedule",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager, Titan Project Sponsor, Zycus Sales"
+    },
+    {
+      "task_name": "Kick off meeting [Introduction Meeting]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Consultant, Zycus Product Specialist, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "Kick-off Meeting",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Intake with iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iRisk",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Intake with isource & ANA",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to share Process flow of SSO integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Exchange of configuration files",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "Exchange of certificates to be used",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "Availability of Technical Team from Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Approach to be used for Single Sign On [Claims/Email Address etc.]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "Zycus Project Set-Up",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Intake with iContract",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Registration of Service Provider URL for client",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Registration TMS URL specific to client",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Configuration of Web Server for service Provider application",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Service Provider application deployment for client and sanity of the deployed setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Configuration of Service Provider setup using below mentioned files",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "iSupplier-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Issue Resolution, if any",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Sign off of SSO on STAGING Environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan IT Team"
+    },
+    {
+      "task_name": "Share Product specific templates [Questionnaire, Product specific Pre-Requisites, Workshop Agenda, User Details template] with Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Legacy data collection for supplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Legacy data collection for PO",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Legacy data collection for Contracts",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Pre design integration Sesion -isupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Pre design integration Sesion -users",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iSource-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Predesign integration session -iMaster",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iContract-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iRequest-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Configure system using collected sample data.",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iRisk-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Project Initiation and Data Gathering",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Data gathering & pre-requisites complete. Ready for onsite workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Workshop Kick-off & Introductions",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iSupplier To-Be Process Design (Reg & Onboarding)",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iSupplier To-Be Process Design (Data Mgmt & Perf)",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iRisk-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iSource-As Is Process Discussion & ANA functional Design and configuration Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "De-briefing session with internal Zycus Stakeholders",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "iContract-As Is Process Discussion & Intake with iContract functional Design and configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "iRequest-As Is Process Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Consolidated review of proposed solution and \"To-Be\" design.",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Review Risks, Assumptions, Issues, and Dependencies (RAID log),Next Steps",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Legacy Migration Discussion and Approach",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Titan to provide sample 100 suppliers for STAGING as per REPO bulk upload template (For iContract/iSource/iRisk)",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Develop & Publish 1st draft of Implementation Approach Document (IAD) for iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "shivani.mishra@zycus.com"
+    },
+    {
+      "task_name": "Develop & Publish 1st draft of Implementation Approach Document (IAD) for iRequest",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "Develop & Publish 1st draft of Implementation Approach Document (IAD) for iSource",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "Develop & Publish 1st draft of Implementation Approach Document (IAD) for iContract",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "Develop & Publish 1st draft of Implementation Approach Document (IAD) for iRisk",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "Zycus to bulk upload sample supplier data on STAGING in Repo fields",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Develop & Publish High Level Design Document TDD with Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Integration Lead"
+    },
+    {
+      "task_name": "Zycus to Configure UI based on the feedback on Metadata template",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "iSupplier reference Master",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "facility System Setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "OTK to share API details for ISN",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Go Value discussion & Project Plan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Draft IAD discussion & Sign off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "iSupplier IAD Review and Sign off by Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "iRequest IAD Review and Sign off by Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "iSource IAD Review and Sign off by Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "iContract IAD Review and Sign off by Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "iRisk IAD Review and Sign off by Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Titan to provide sign off on TDD indicating final requirements",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Integration Team"
+    },
+    {
+      "task_name": "Functional Design Sign Off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Common Master",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Supplier workflow configuration for Create, Edit, Activate & Deactivate",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Request type and Request Definition configuration / updates",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Configure KPI, Scorecards and Reports in iRisk pre PRODUCTION environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "iSource: Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Configure Fields structures as per finalized UI template on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Review of configured Request forms and provide feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Approval workflow configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Share Supplier Bulk upload template by Zycus",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Functional Configuration on STAGING set Up",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Workflow configuration on STAGING",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to update configurations of Request forms as per received feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Review of User Roles and Approval Workflow and provide feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Run a mock event to verify the results",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Configuration for SCAR & Development program on STAGING",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Configure Fields structures as per finalized UI template on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Template/Folder Configuration on STAGING",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Review of configured Request forms and provide confirmation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Zycus to update configurations for user roles and approval workflow as per received feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Approval workflow configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Workflow configuration on STAGING",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide access to required users on STAGING setup for Pre UAT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Review of User Roles and Approval Workflow and provide confirmation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Review cycles of entire iRisk process flow with the Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Template Configuration on STAGING",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Review cycles of entire Contracting process flow with the Titan and Titan to provide feedback - if any",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Team, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to Check ISN custom configuration/ App",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "ISupplier Demo without ISN integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Titan to provide feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Review cycles of entire Sourcing process flow with the Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Feedback for iSupplier walkthrough",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Integration set up, Development at Zycus",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Integration Team"
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to incorporate the feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Titan to provide feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Titan to review updated configurations and approve STAGING configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Titan to review and approve STAGING configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "courtney.re@Titan.com"
+    },
+    {
+      "task_name": "Provide final list of users with specified roles",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team"
+    },
+    {
+      "task_name": "Provide final list of users with specified roles",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team"
+    },
+    {
+      "task_name": "Provide final list of users with specified roles",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team"
+    },
+    {
+      "task_name": "iSupplier feedback inforporation & re-demo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iRequest to Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iContract to Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Pre UAT preparedness",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre UAT readiness",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "abhilasha.s@zycus.com"
+    },
+    {
+      "task_name": "Provide feedback - if any for iRequest configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for iContract configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iRisk to Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iSource to Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Logistics readiness if needed",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for iRisk configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Provide feedback - if any for iSource configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD sign off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iSupplier- Functional flow only",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Integration set up, Development at Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Integration Team"
+    },
+    {
+      "task_name": "Create users on STAGING set for UAT group",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "Incorporate issue resolution if any and share final version of IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "Provide feedback - if any for iSupplier configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Quality Reviews",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Release of iRequest STAGING to Titan key users (UAT Release)",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Create users and assign roles on STAGING set for UAT group",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Integration Team, Zycus Integration Team"
+    },
+    {
+      "task_name": "Setup ISN integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "eProc",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sessions as per Pre-Requisite agenda",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Zycus Project Team"
+    },
+    {
+      "task_name": "UAT of iSource on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "UAT of iRequest on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "End to End flow for iSupplier with Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Production System Standard Setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "UAT of iContract on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "UAT of iRisk on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "User list to be provide with access mapping by customer",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Titan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager"
+    },
+    {
+      "task_name": "Titan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Titan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Titan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Titan As-Is Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Training Approach and Schedule finalization",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager, Zycus Project Manager, Zycus University"
+    },
+    {
+      "task_name": "Training Agenda Finalization",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager, Zycus University"
+    },
+    {
+      "task_name": "UAT of iSupplier on STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan IT Project Manager"
+    },
+    {
+      "task_name": "Titan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "UAT Sign Off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Discuss & Finalize Logistics activity dates - as required",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Project Manager"
+    },
+    {
+      "task_name": "Pre workshop discussion for Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Share Pre-Requisite documents and information as per the templates shared by Zycus with Samples",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager"
+    },
+    {
+      "task_name": "UAT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Share Logistics Plan - if any with Titan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Project Manager"
+    },
+    {
+      "task_name": "Review & Approve Logistics Plan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Project Initiation & Data Gathering",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Arrange Logistics required for workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "Train The Trainer Sessions",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "SSO and Integration Setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "User Setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "User Upload",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Production Deployment & Readiness-Migrate Solution from Staging to Prodcution",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "sagar.chaurasiya@zycus.com"
+    },
+    {
+      "task_name": "Production Deployment & Readiness-Migrate Solution from Staging to Prodcution",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Production Deployment & Readiness-Migrate Solution from Staging to Prodcution",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Production Deployment & Readiness-Migrate Solution from Staging to Prodcution",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Production Deployment & Readiness-Migrate Solution from Staging to Prodcution",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Data Load-Historical and bulk upload - iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Setup from OTK side",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sanity Check of Production system",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Go/No-go Check Point ( Meeting with Titan)",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Project Manager"
+    },
+    {
+      "task_name": "Go-Live & Support intro",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Release iRequest to all users",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Release iContract to all users (Soft Launch or Full Launch based on Titan decision) Go-live Sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Release iRisk to all users (Pilot Launch or Full Launch based on Titan decision)",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Release iSupplier to all users (Pilot Launch or Full Launch based on Titan decision) Go-live Sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Release iSource to all users (Pilot Launch or Full Launch based on Titan decision) Go-live Sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Train The Trainer",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "End User trainings",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus - Titan S2P Implementation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Contract Management with Integration and Merlin",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Hyper Care(Measure and Adoption) Solution",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Hypercare Support",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "P2P, iSupplier Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "Develop & Publish 1st draft of Implementation Approach Document (IAD) for eProc-eInvoice",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "eProc-eInvoice IAD Review and Sign off by Titan",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "eInvoice integration use cases discussion-Invoice,creditmemo,payment,apportionment",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc integration use cases discussion-create,edit,cancel,close",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Master data discussion overall and connectivity-2 master data-Increase the days based on master data count including DDT/DMT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Review and feedback incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Integration Team, Titan Project Manager, Zycus Consultant, Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Sign off on LLD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Manager"
+    },
+    {
+      "task_name": "Configuration and Build phase",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Configure Workflow",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT for eInvoice",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for eProc configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice : Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration development at Titan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Questionnaire Sharing and Sample Files with Supplier",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Supplier Registration on ZSN staging",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Punchout Setup and Connectivity testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "PO and Invoice Unit Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus test case documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Questionnaire Sharing and Sample Files with Supplier",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Supplier Registration on ZSN staging",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Punchout Setup and Connectivity testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "PO and Invoice Unit Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus test case documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Questionnaire Sharing and Sample Files with Supplier",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Supplier Registration on ZSN staging",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Punchout Setup and Connectivity testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "PO and Invoice Unit Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus test case documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Configure Workflow",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT for eProc Direct",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for eProc Direct configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Direct : Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration development at Titan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Configure Workflow",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Direct Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for eProc configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Direct : Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration development at Titan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Configure Workflow",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured eProc to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Pre-UAT of Master Data",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for masterdata configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Master Data: Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration development at Titan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Acceptance Testing (UAT)",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Prepare the UAT Approach",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Finalize and agree on UAT Approach",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Provide users & roles on STAGING required for UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Create users on STAGING set for UAT group",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Provide Standard Test Cases",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Finalize Test Cases",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "UAT of End-to-end system - eProc & eInvoice",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Titan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Log ticket for PRODUCTION tenant creation (Starting with SSO sign off on STAGING)",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "iSupplier is PROD Ready with Supplier Bulk upload on PRODUCTION",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "ZSN & P2P configuration for catalog uploads by Titan/Supplier",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Titan to provide refreshed Master data for PRODUCTION",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Zycus validation and data iterations",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Titan to move integration code to PRODUCTION environment",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Setup PRODUCTION environment (master data) - Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Setup PRODUCTION environment (configuration) - Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Setup PRODUCTION environment (Integration) - Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Quality Team"
+    },
+    {
+      "task_name": "eProc Training (Train the Trainer)",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Manager, Titan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "eInvoice Training (Train the Trainer)",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Manager, Titan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "Admin Training",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Manager, Titan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "P2P Cutover",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "First Go-Live communication to all suppliers",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Share updated P2P user list",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Second Go-Live communication to all suppliers",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Close all requisitions/PO/invoices in existing system",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Supplier/Titan to load catalogues on ZSN",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Load delta master data via integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Integration Team"
+    },
+    {
+      "task_name": "Titan Quality Check",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Team"
+    },
+    {
+      "task_name": "Release P2P to all users requiring access for Pilot launch",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Titan Project Manager, Titan Project Team, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Hypercare Support",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    }
+  ],
+  "this_week_tasks": [
+    {
+      "task_name": "Configuration Documentation workshop",
+      "owner": null,
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 25% complete",
+      "task_status_field": "In Progress",
+      "pct_complete": 0.25,
+      "duration_days": 16,
+      "start_date": "2026-06-22 00:00:00",
+      "end_date": "2026-07-13 00:00:00"
+    },
+    {
+      "task_name": "Master data to be provided by OTK team",
+      "owner": null,
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 0% complete",
+      "task_status_field": "Not Started",
+      "pct_complete": null,
+      "duration_days": 5,
+      "start_date": "2026-06-26 00:00:00",
+      "end_date": "2026-07-02 00:00:00"
+    },
+    {
+      "task_name": "Workflow details & CULT table details to be provided by OTK",
+      "owner": null,
+      "status": "Red",
+      "reason": "Should be underway this week (Start/End Date falls in this window), but only 0% complete",
+      "task_status_field": "Not Started",
+      "pct_complete": null,
+      "duration_days": 11,
+      "start_date": "2026-06-26 00:00:00",
+      "end_date": "2026-07-10 00:00:00"
+    },
+    {
+      "task_name": "P2P, iSupplier Configuration Documentation Workshop",
+      "owner": "Titan Core Project Team, Titan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 5,
+      "start_date": "2026-06-22 00:00:00",
+      "end_date": "2026-06-26 00:00:00"
+    }
+  ],
+  "hierarchy_depth_field_used": "Level",
+  "counts": {
+    "tasks": 493,
+    "milestones": 14,
+    "blockers": 1,
+    "comments": 9
+  },
+  "source_summary_snapshot": {
+    "Project Manager": "Aftab Hashambhai",
+    "Project Start Date": "2025-12-05 00:00:00",
+    "Project End Date": "2026-12-07 00:00:00",
+    "Not Started": 194,
+    "In Progress": 15,
+    "Completed": 255,
+    "On Hold": 3,
+    "At Risk": "High",
+    "Project Stage": "Configuration and Build phase",
+    "% Complete": 0.71,
+    "Schedule Health": "Green",
+    "Today's Date": "2026-07-02 00:00:00",
+    "Target Start Date": null,
+    "Target End Date": null,
+    "Schedule Delta": null,
+    "Duration": 262,
+    "Target Dates Variance": null,
+    "Schedule Variance": null,
+    "Project Status": "In Progress"
+  },
+  "_DEMO_NOTE": "Simulated checkpoint for demo purposes. report_run_date was overridden to this date; % Complete and Status are the real file's current frozen values, NOT true historical values for this date. Every date-driven signal (overdue-ness, this-week classification, critical-path, blocker age, milestone lateness) is genuinely recomputed and real for this date. See outputs_demo/README_DEMO.txt."
+}

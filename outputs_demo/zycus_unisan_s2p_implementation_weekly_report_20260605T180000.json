@@ -1,0 +1,2063 @@
+{
+  "project_name": "Zycus - UniSan S2P Implementation",
+  "source_file": "Project Plan B.xlsx",
+  "generated_at": "20260605T180000",
+  "report_run_date": "2026-06-05 00:00:00",
+  "report_week_start": "2026-06-01 00:00:00",
+  "report_week_end": "2026-06-07 00:00:00",
+  "rag_status": "Green",
+  "composite_score": 89.7,
+  "confidence": "High",
+  "escalation_applied": false,
+  "red_signals": [],
+  "signals": {
+    "schedule_slippage": {
+      "score": 100,
+      "raw_metric": "1/286 leaf tasks overdue (0.3%)"
+    },
+    "budget_burn": null,
+    "milestone_health": {
+      "score": 60,
+      "raw_metric": "1/39 milestones delayed or missed: Training Phase I"
+    },
+    "blockers": {
+      "score": 100,
+      "raw_metric": "No open blockers"
+    },
+    "stakeholder_sentiment": null,
+    "critical_path_health": {
+      "score": 100,
+      "raw_metric": "0/50 critical-path (zero-float) tasks currently overdue"
+    }
+  },
+  "weights_used": {
+    "schedule_slippage": 0.3571,
+    "milestone_health": 0.2571,
+    "blockers": 0.1714,
+    "critical_path_health": 0.2143
+  },
+  "explanation": {
+    "status": "Green",
+    "top_driver": "milestone_health",
+    "confidence": "High",
+    "narrative": "Zycus - UniSan S2P Implementation is Green this week. In plain terms: 1 of its 39 milestones is delayed or missed, including Training Phase I. Data confidence for this read is high.",
+    "format_fallback": true
+  },
+  "data_completeness_pct": 97.3,
+  "has_budget_data": false,
+  "has_sentiment_data": false,
+  "sentiment_trend": [
+    {
+      "as_of": "2026-05-15 00:00:00",
+      "score": null,
+      "raw_metric": null
+    },
+    {
+      "as_of": "2026-05-22 00:00:00",
+      "score": null,
+      "raw_metric": null
+    },
+    {
+      "as_of": "2026-05-29 00:00:00",
+      "score": null,
+      "raw_metric": null
+    },
+    {
+      "as_of": "2026-06-05 00:00:00",
+      "score": null,
+      "raw_metric": null
+    }
+  ],
+  "top_risk_rows": [
+    {
+      "task_name": "Training Phase I",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Admin Training",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    }
+  ],
+  "all_task_status": [
+    {
+      "task_name": "Training Phase I",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": null
+    },
+    {
+      "task_name": "Admin Training",
+      "status": "Amber",
+      "reason": "Overdue, but still has schedule slack",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "Contract Sign Off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Contract signing between UniSan and Zycus",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Sponsor, Zycus Sales"
+    },
+    {
+      "task_name": "Contract Sign Off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Review Contract Scope",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Resources Manager"
+    },
+    {
+      "task_name": "Assign Project Team and Internal communication",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Resources Manager"
+    },
+    {
+      "task_name": "Zycus Project Team mobilization and Team alignment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Resources Manager"
+    },
+    {
+      "task_name": "Finalize kick off meeting schedule",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager, UniSan Project Sponsor, Zycus Sales"
+    },
+    {
+      "task_name": "Review SOW with UniSan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Sponsor, Zycus Project Manager"
+    },
+    {
+      "task_name": "Kick off meeting [Introduction Meeting]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Consultant, Zycus Product Specialist, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "Kick-off Meeting",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sales / PreSales / Pilots handover",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Manager, Zycus Project Team, Zycus Sales"
+    },
+    {
+      "task_name": "Share Product specific templates [Questionnaire, User Details template, Legacy Data Upload] with UniSan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Pre-kick off meeting with internal stakeholders",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Manager, Zycus Project Team, Zycus Sales"
+    },
+    {
+      "task_name": "Setup Project [Server, Email alias, Internal Applications, Central Drive, Internal ticket for STAGING Set Up]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "Zycus Project Set-Up",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "NFR (Non-Functional Requirement) Finalization and sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, Zycus Project Team"
+    },
+    {
+      "task_name": "Company creation on Zycus STAGING environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Setup Value Introduction kick-off call",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Value Definition Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Configure staging setup with base configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Value Definition Review and Follow-up",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Value Definition Sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Schedule quality toll",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Availability of Technical Team from Customer",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Value Realization Target Discussion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Project Initiation and Data Gathering",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Quality Team"
+    },
+    {
+      "task_name": "Implementation Questionnaire and Staging Setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to share Process flow of SSO integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Exchange of configuration files",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "Exchange of certificates to be used",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "Approach to be used for Single Sign On [Claims/Email Address etc.]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "SSO: Completion of Design & Analysis",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Registration of Service Provider URL for client",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Registration TMS URL specific to client",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Configuration of Web Server for service Provider application",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Service Provider application deployment for client and sanity of the deployed setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Configuration of Service Provider setup using below mentioned files",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "iSupplier Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "iSupplier Configuration Documentation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "Single Sign On and User details Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Issue Resolution, if any",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Sign off of SSO on STAGING Environment",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team"
+    },
+    {
+      "task_name": "SSO: Completion of Development and Testing",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "CLM Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "iContract Documentation with Merlin",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "IAD Review for iSupplier and iContract",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "UniSan to review and Sign-off IAD Draft- iSupplier and iContract",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Configuration Documentation concluded",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "First draft IAD Sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "User Role Configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Admin Settings Configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Configuration Validation & Documentation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Integration Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "Configure User Roles, View Definition and Workflow as per IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iContract to UniSan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to provide feedback",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, UniSan Subject Matter Expert"
+    },
+    {
+      "task_name": "Provide feedback - if any for iContract configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iSupplier to UniSan",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD sign off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "iContract: Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Provide feedback - if any for iSupplier configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team"
+    },
+    {
+      "task_name": "Contract Management with Basic Setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "WordConnect Installation at UniSan's end",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "Prepare the UAT Approach",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager, Zycus Project Manager"
+    },
+    {
+      "task_name": "iSupplier: Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Finalize and agree on UAT Approach",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Value KPI Report creation on Staging",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Provide users & roles on STAGING required for UAT",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager, UniSan Project Team, UniSan SME"
+    },
+    {
+      "task_name": "Provide Standard Test Cases",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Quality Team"
+    },
+    {
+      "task_name": "Finalize Test Cases",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team"
+    },
+    {
+      "task_name": "Create users on STAGING set for UAT group",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Supplier Information Management with Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Value KPI Report demo on Staging",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "UAT for iContract and iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team"
+    },
+    {
+      "task_name": "Value KPI Sign-off",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "Log ticket for PRODUCTION tenant creation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "User Acceptance Testing (UAT) Phase I",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "UniSan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Core Project Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "UAT Completion I",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Training Approach and Schedule finalization",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager, Zycus Project Manager, Zycus University"
+    },
+    {
+      "task_name": "Training Agenda Finalization",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager, Zycus University Trainer"
+    },
+    {
+      "task_name": "iContract + Merlin for Contract Training",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "Provide the final list of users to be created on PRODUCTION",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Holdings SME, UniSan Project Manager, TKC Holdings Project Team"
+    },
+    {
+      "task_name": "iSupplier Training",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "PRODUCTION setup with standard configuration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Raise internal ticket for configuration of service provider set up & PRODUCTION URL Change",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Training Completion",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Configuration migration to PRODUCTION for iContract & iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Exchange of certificates to be used",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, Zycus SSO Team"
+    },
+    {
+      "task_name": "Registration TMS URL specific to client",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Registration of Service Provider URL for client",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Configuration of Web Server for service Provider application",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Service Provider application deployment for client and sanity of the deployed setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Configuration of Service Provider setup",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "Creation of Specified Users as per roles",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "WordConnect Installation at UniSan's end",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "Configuring DSSO URL for all the respective product",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus SSO Team"
+    },
+    {
+      "task_name": "KPI Reports to be migrated on PROD",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Testing of SSO login on PRODUCTION set up",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, TKC Holdings Project Team"
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Production Migration Phase I",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Sign off on SSO Implementation",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Quality Team"
+    },
+    {
+      "task_name": "Sanity on Production for iContract and iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan IT Team, UniSan Integration Team, UniSan Project Manager, UniSan SME, UniSan Subject Matter Expert"
+    },
+    {
+      "task_name": "Go /No-go Check Point ( Meeting with UniSan) for iContract & iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Release Zycus system to all users  for iContract and iSupplier",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Production Go-Live Phase I",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": null
+    },
+    {
+      "task_name": "Hypercare Phase I",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Team, UniSan Integration Team, UniSan Project Group, Zycus Consultant, Zycus Integration Team, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Configuration Validation & Documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "iSource Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "CLM Additional Approval Workflow Documentation Workshop",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "Merlin Intake Configuration Documentation Workshop",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "Integration Configuration Documentation Workshop ( eInovoice, iContract)",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, UniSan SME, Zycus Project Team"
+    },
+    {
+      "task_name": "iSource Configuration Documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "eProc, eInvoice and Merlin APSD Configuration Documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "CLM Configuration Documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "iSupplier Configuration Documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "Merlin Intake Configuration Documentation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager, Zycus Merlin Product Team, Zycus Project Manager, Zycus Project Team"
+    },
+    {
+      "task_name": "IAD Review for all modules",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "UniSan to review and Sign-off IAD Draft",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Value Realization Target Discussion",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Configuration Documentation concluded",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "First draft IAD Sign-off",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc and eInvoice and Merlin APSD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured eProc and eInvoice to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide feedback - if any for eProc configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "eProc : Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Integration Team, Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Integration Lead"
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Integration development at UniSan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Team"
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Team"
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "eProc Integration: Completion of Design",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Integration: Completion of Development and Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Integration: Completion of SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Integration Team, Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Integration Lead"
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Integration development at UniSan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Team"
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Team"
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "eProc Integration: Completion of Design",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Integration: Completion of Development and Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eProc Integration: Completion of SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Lead"
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Integration development at UniSan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Team"
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Team"
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of Design",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of Development and Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Contract Management with Basic Setup",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Role Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Admin Settings Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iContract to UniSan",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide feedback - if any for iContract configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD sign off",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "iContract: Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Zycus to provide walkthrough of shared template to UniSan",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to provide historical contracts details for Bulk Upload",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Team"
+    },
+    {
+      "task_name": "Zycus to review shared details and provide feedback - if any",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to incorporate feedback and provide revised final details of historical contracts for bulk upload into iContract",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Team"
+    },
+    {
+      "task_name": "Zycus to ensure supplier details availability in STAGING",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Zycus to bulk upload historical contracts details in STGAING [10 contracts for each Type/Subtype]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to review uploaded details and provide go ahead for bulk upload into PRODUCTION",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team"
+    },
+    {
+      "task_name": "Zycus to bulk upload historical contracts details in Production",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Supplier Information Management with Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Configure User Roles, View Definition and Workflow as per IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to provide feedback",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Subject Matter Expert"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iSupplier to UniSan",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide feedback - if any for iSupplier configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager, Zycus Project Manager"
+    },
+    {
+      "task_name": "UniSan to provide supplier bulk upload data in the template provided by Zycus from UniSan's Staging environment",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Project Manager, UniSan IT Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "Zycus to review the files and provide feedback",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to provide updated bulk upload data",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Project Manager, UniSan IT Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "Zycus to bulk upload supplier data on STAGING setup",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "UniSan to review bulk uploaded data",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team"
+    },
+    {
+      "task_name": "UniSan to sign off on supplier bulk upload",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "UniSan Prod migration Supplier",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "UniSan Integration Team, Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "Completed",
+      "owner": "Zycus Integration Lead"
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Integration development at UniSan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Team"
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Team"
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of Design",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of Development and Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Mapping activity for Integration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Share TDD for interface",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Lead"
+    },
+    {
+      "task_name": "Review of TDD and share feedback with Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Sign off on TDD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration set up and development at Zycus",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Specialist"
+    },
+    {
+      "task_name": "Integration development at UniSan - as applicable",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Integration Unit Testing and Feedback Incorporation",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Integration Team"
+    },
+    {
+      "task_name": "SIT on STAGING Set Up",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team, Zycus Integration Team"
+    },
+    {
+      "task_name": "Sign off on SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of Design",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of Development and Testing",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "eInvoice Integration: Completion of SIT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "iSupplier: Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Value KPI Report creation on Staging",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Value KPI Report demo on Staging",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "iSource Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured iSource to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide feedback - if any for iSource configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "iSource : Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Merlin Intake Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Roles configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Admin settings configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Readiness for Pre-UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Pre-UAT - Provide End to end walkthrough of configured Merlin Intake to the Customer",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide feedback - if any for Merlin Intake configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Zycus to incorporate feedback - as applicable and share final version of Implementation Approach Document [IAD]",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Sign off on Pre-UAT and final version of IAD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Merlin Intake : Conclude Functional Configuration",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "User Acceptance Testing (UAT) Phase II",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Prepare the UAT Approach",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Finalize and agree on UAT Approach",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "Provide users & roles on STAGING required for UAT",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager, UniSan Project Team, UniSan SME"
+    },
+    {
+      "task_name": "Create users on STAGING set for UAT group",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide Standard Test Cases",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Consultant, Zycus Product Specialist"
+    },
+    {
+      "task_name": "Finalize Test Cases",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team"
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Quality Team"
+    },
+    {
+      "task_name": "UAT Intake and iSource",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team"
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "UniSan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "UAT iSupplier, eProc, eInvoice and CLM",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team"
+    },
+    {
+      "task_name": "Defect Analysis & UAT Feedback incorporation and share Test Closure Memo",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Project Team"
+    },
+    {
+      "task_name": "UniSan to provide sign off on Test Closure Memo",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Core Project Team, UniSan Project Manager"
+    },
+    {
+      "task_name": "UAT Completion",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Value KPI Sign-off",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Training Phase II",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Training Approach and Schedule finalization",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager, Zycus Project Manager, Zycus University"
+    },
+    {
+      "task_name": "Training Agenda Finalization",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager, Zycus University Trainer"
+    },
+    {
+      "task_name": "iContract + Merlin for Contract Training",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "iSource Training",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "eProc Training",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "eInvoice and Merlin APSD Training",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "Merlin Intake",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "Admin Training",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Team, Zycus University Trainer"
+    },
+    {
+      "task_name": "Training Completion",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Production Migration Phase II",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Configuration migration to PRODUCTION - iSource and Merlin Intake",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Configuration migration to PRODUCTION -  iSupplier, eProc, eInvoice and CLM",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Provide the final list of users to be created on PRODUCTION",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Holdings SME, UniSan Project Manager, TKC Holdings Project Team"
+    },
+    {
+      "task_name": "Creation of Specified Users as per roles",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Migrate integration code to Prod",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Integration Team"
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Quality Team"
+    },
+    {
+      "task_name": "Sanity on Production - iSource and Merlin Intake",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Team, UniSan Integration Team, UniSan Project Manager, UniSan SME, UniSan Subject Matter Expert"
+    },
+    {
+      "task_name": "Go /No-go Check Point ( Meeting with UniSan) - iSource and Merlin Intake",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Release Zycus system to all users -  iSource and Merlin Intake",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "KPI Reports to be migrated on PROD",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager"
+    },
+    {
+      "task_name": "Sanity on Production  -  iSupplier, eProc, eInvoice and CLM",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Team, UniSan Integration Team, UniSan Project Manager, UniSan SME, UniSan Subject Matter Expert"
+    },
+    {
+      "task_name": "Go /No-go Check Point ( Meeting with UniSan)  -  iSupplier, eProc, eInvoice and CLM",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan Project Manager"
+    },
+    {
+      "task_name": "Release Zycus system to all users  -  iSupplier, eProc, eInvoice and CLM",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "Zycus Product Specialist"
+    },
+    {
+      "task_name": "Production Go-Live Phase II",
+      "status": "Green",
+      "reason": "On track",
+      "owner": null
+    },
+    {
+      "task_name": "Hypercare Phase II",
+      "status": "Green",
+      "reason": "On track",
+      "owner": "UniSan IT Team, UniSan Integration Team, UniSan Project Group, Zycus Consultant, Zycus Integration Team, Zycus Product Specialist, Zycus Project Manager"
+    }
+  ],
+  "this_week_tasks": [
+    {
+      "task_name": "Production Migration Phase I",
+      "owner": null,
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 11,
+      "start_date": "2026-05-19 00:00:00",
+      "end_date": "2026-06-03 00:00:00"
+    },
+    {
+      "task_name": "Creation of Specified Users as per roles",
+      "owner": "Zycus Product Specialist",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 4,
+      "start_date": "2026-05-26 00:00:00",
+      "end_date": "2026-06-01 00:00:00"
+    },
+    {
+      "task_name": "WordConnect Installation at UniSan's end",
+      "owner": "UniSan IT Team, UniSan Project Manager",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 2,
+      "start_date": "2026-05-29 00:00:00",
+      "end_date": "2026-06-01 00:00:00"
+    },
+    {
+      "task_name": "Configuring DSSO URL for all the respective product",
+      "owner": "Zycus SSO Team",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 1,
+      "start_date": "2026-06-01 00:00:00",
+      "end_date": "2026-06-01 00:00:00"
+    },
+    {
+      "task_name": "Testing of SSO login on PRODUCTION set up",
+      "owner": "UniSan IT Team, TKC Holdings Project Team",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 1,
+      "start_date": "2026-06-02 00:00:00",
+      "end_date": "2026-06-02 00:00:00"
+    },
+    {
+      "task_name": "Sign off on SSO Implementation",
+      "owner": "UniSan Project Manager",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 1,
+      "start_date": "2026-06-03 00:00:00",
+      "end_date": "2026-06-03 00:00:00"
+    },
+    {
+      "task_name": "Schedule for quality check",
+      "owner": "Zycus Product Specialist",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 1,
+      "start_date": "2026-06-02 00:00:00",
+      "end_date": "2026-06-02 00:00:00"
+    },
+    {
+      "task_name": "Perform quality checks, PSRs as per quality checklist and submit to QC team",
+      "owner": "Zycus Product Specialist",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 1,
+      "start_date": "2026-06-03 00:00:00",
+      "end_date": "2026-06-03 00:00:00"
+    },
+    {
+      "task_name": "Quality Check by Zycus QC team",
+      "owner": "Zycus Quality Team",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 0,
+      "start_date": "2026-06-03 00:00:00",
+      "end_date": "2026-06-03 00:00:00"
+    },
+    {
+      "task_name": "KPI Reports to be migrated on PROD",
+      "owner": "UniSan Project Group, Zycus Product Specialist, Zycus Project Manager",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 2,
+      "start_date": "2026-05-29 00:00:00",
+      "end_date": "2026-06-01 00:00:00"
+    },
+    {
+      "task_name": "Sanity on Production for iContract and iSupplier",
+      "owner": "UniSan IT Team, UniSan Integration Team, UniSan Project Manager, UniSan SME, UniSan Subject Matter Expert",
+      "status": "Green",
+      "reason": "Completed",
+      "task_status_field": "Completed",
+      "pct_complete": 1.0,
+      "duration_days": 2,
+      "start_date": "2026-06-04 00:00:00",
+      "end_date": "2026-06-05 00:00:00"
+    }
+  ],
+  "hierarchy_depth_field_used": "Ancestors",
+  "counts": {
+    "tasks": 383,
+    "milestones": 39,
+    "blockers": 0,
+    "comments": 0
+  },
+  "source_summary_snapshot": {
+    "Project Manager": "Rajat Bothra",
+    "Project Start Date": "2026-02-11 00:00:00",
+    "Project End Date": "2026-10-09 00:00:00",
+    "Not Started": 175,
+    "In Progress": 35,
+    "Completed": 133,
+    "On Hold": 0,
+    "At Risk": "High",
+    "Project Stage": "Training Phase I",
+    "% Complete": 0.44,
+    "Schedule Health": "Red",
+    "Today's Date": "2026-07-02 00:00:00",
+    "Target Start Date": null,
+    "Target End Date": null,
+    "Schedule Delta": null,
+    "Duration": 170,
+    "Target Dates Variance": null,
+    "Schedule Variance": null,
+    "Project Status": "In Progress"
+  },
+  "_DEMO_NOTE": "Simulated checkpoint for demo purposes. report_run_date was overridden to this date; % Complete and Status are the real file's current frozen values, NOT true historical values for this date. Every date-driven signal (overdue-ness, this-week classification, critical-path, blocker age, milestone lateness) is genuinely recomputed and real for this date. See outputs_demo/README_DEMO.txt."
+}
